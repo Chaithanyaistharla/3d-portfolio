@@ -8,14 +8,14 @@ const projects = [
     title: "Fake Job Post Prediction",
     category: "Machine Learning Model",
     tools: "Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, TensorFlow, Bi-directional LSTM",
-    image: "/images/fake-job-post.png",
+    image: "./images/fake-job-post.png",
     link: "#",
   },
   {
     title: "Smart Farming Prediction",
     category: "Machine Learning Model",
     tools: "Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, TensorFlow",
-    image: "/images/smart-farming.png",
+    image: "./images/smart-farming.png",
     link: "#",
   },
 ];
