@@ -81,56 +81,37 @@ export function initialFX() {
 }
 
 function LoopText(Text1: SplitText, Text2: SplitText) {
-  var tl = gsap.timeline({ repeat: -1, repeatDelay: 1 });
-  const delay = 4;
-  const delay2 = delay * 2 + 1;
+  var tl = gsap.timeline({ repeat: -1 });
 
-  tl.fromTo(
-    Text2.chars,
-    { opacity: 0, y: 80 },
-    {
-      opacity: 1,
-      duration: 1.2,
-      ease: "power3.inOut",
+  gsap.set(Text2.chars, { opacity: 0, y: 80 });
+
+  tl.to(Text1.chars, {
+    y: -80,
+    opacity: 0,
+    duration: 1.0,
+    stagger: 0.05,
+    ease: "power3.inOut",
+  }, "+=4")
+    .to(Text2.chars, {
       y: 0,
-      stagger: 0.1,
-      delay: delay,
-    },
-    0
-  )
-    .fromTo(
-      Text1.chars,
-      { y: 80 },
-      {
-        duration: 1.2,
-        ease: "power3.inOut",
-        y: 0,
-        stagger: 0.1,
-        delay: delay2,
-      },
-      1
-    )
-    .fromTo(
-      Text1.chars,
-      { y: 0 },
-      {
-        y: -80,
-        duration: 1.2,
-        ease: "power3.inOut",
-        stagger: 0.1,
-        delay: delay,
-      },
-      0
-    )
-    .to(
-      Text2.chars,
-      {
-        y: -80,
-        duration: 1.2,
-        ease: "power3.inOut",
-        stagger: 0.1,
-        delay: delay2,
-      },
-      1
-    );
+      opacity: 1,
+      duration: 1.0,
+      stagger: 0.05,
+      ease: "power3.inOut",
+    }, "<0.2")
+    .to(Text2.chars, {
+      y: -80,
+      opacity: 0,
+      duration: 1.0,
+      stagger: 0.05,
+      ease: "power3.inOut",
+    }, "+=4")
+    .set(Text1.chars, { y: 80 })
+    .to(Text1.chars, {
+      y: 0,
+      opacity: 1,
+      duration: 1.0,
+      stagger: 0.05,
+      ease: "power3.inOut",
+    }, "<0.2");
 }

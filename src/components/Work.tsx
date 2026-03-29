@@ -5,32 +5,18 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
-    image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    title: "Fake Job Post Prediction",
+    category: "Machine Learning Model",
+    tools: "Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, TensorFlow, Bi-directional LSTM",
+    image: "/images/fake-job-post.png",
+    link: "#",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
-    image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
-  },
-  {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
-    image: "/images/broki.png",
-    link: "https://broki.in",
-  },
-  {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
-    image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    title: "Smart Farming Prediction",
+    category: "Machine Learning Model",
+    tools: "Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, TensorFlow",
+    image: "/images/smart-farming.png",
+    link: "#",
   },
 ];
 

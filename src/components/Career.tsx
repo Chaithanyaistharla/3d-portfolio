@@ -2,7 +2,7 @@ import "./styles/Career.css";
 
 const Career = () => {
   return (
-    <div className="career-section section-container">
+    <div className="career-section section-container" id="experience">
       <div className="career-container">
         <h2>
           My career <span>&</span>
@@ -15,58 +15,61 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Full Stack Developer & QA</h4>
+                <h5>5Data Inc.</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>Jan 2026 - Current</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Working as a Full Stack Developer and QA on Agentic QA. Building features and ensuring quality leveraging a tech stack that includes Node.js, Express.js, PostgreSQL, React.js, Drizzle, and Replit.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Software Engineer</h4>
+                <h5>5Data Inc.</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>Oct 2025 - Dec 2025</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Worked on CISO Assistant (GRC Tool). Developed core features, implemented task and user import functionalites, built AWS integration for cloud asset visibility, and collaborated with stakeholders to align features with automation workflows.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Software Developer Intern</h4>
+                <h5>iQ Tree Tech Soft.</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>Oct 2023 - Apr 2024</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Developed and implemented a ChatBot using Django, integrated with the company website. Designed and developed an HRMS (Human Resource Management System) using Django to streamline internal operations.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>Master's Coursework</h4>
+                <h5>University of North Texas</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>2024 - 2025</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Information Science. Coursework focused on: Data Visualization, Computational Methods, Information Security, Metadata & Knowledge Organization.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Bachelor of Technology</h4>
+                <h5>Vasireddy Venkatadri Institute of Technology</h5>
+              </div>
+              <h3>2020 - 2024</h3>
+            </div>
+            <p>
+              Majors: Computer Science. Also hold certifications in Smart India Hackathon 2022 (Finalist), Microsoft Azure AI Fundamentals, and Process Mining / Salesforce Developer virtual internships.
             </p>
           </div>
         </div>
